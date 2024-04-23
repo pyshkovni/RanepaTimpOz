@@ -39,24 +39,5 @@ def start():
 if __name__ == "__main__":
     start()
 
-
-
-#############################################################
-# Импорты. Зачем?
-# Модуль это файл с расширением py
-# Модуль бывают: самописные, встроенные, внешние
-
-# импорт самописных модулей
-# import functions
-# import functions as f
-# from functions import func
-
-# func()
-
-# импорт встроенных модулей
-# import random
-
-# print(random.choices([1, 2, 3, 4, 5], k=2))
-
 # Как работает время из datetime?
 # print(time(hour=13, minute=20, second=10)) # 13:20:10
